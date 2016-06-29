@@ -21,6 +21,7 @@ end
 
 apt_repository "rackspace-backups" do
   uri "http://agentrepo.drivesrvr.com/debian/"
+  arch "amd64"
   distribution "serveragent"
   components ["main"]
   key "http://agentrepo.drivesrvr.com/debian/agentrepo.key"
